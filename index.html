@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Protfoil</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'> /* box icon */
+    <link rel="stylesheet" href="style.css">
+    <script src="index.js" defer></script>
+</head>
+<body> 
+  
+    <header class="header">
+         <a href="#" class="logo" >Portfolio</a>
+
+        <i class='bx bx-menu' id="menu-icon"></i>
+
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#skill">Skills</a>
+            <a href="#langua">languages </a>
+            <a href="#project">Projects </a>
+            <a href="#contact">Contact</a>
+            
+
+        </nav>
+    </header>
+    <section class="home" id="home">
+    <div class="home-content">
+        <h3>Hello , It's Me</h3>
+        <h1>Imran Pasha</h1>
+        <h3>I'm a <span>Computer Science engineer</span> </h3>
+        <p>with strong problem solving and an innovation spark. Thrives
+            in teams, tackles solo projects, and
+            masters new tech through competitions
+            and hackathons.</p>
+            <div class="social-media">
+                <a href="https://www.facebook.com/profile.php?id=100037074796165&mibextid=ZbWKwL"><i class='bx bxl-facebook' ></i></a>
+                <a href="https://www.linkedin.com/in/imran-pasha-019b2b213?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i class='bx bxl-linkedin' ></i></a>
+                <a href="https://www.instagram.com/imran_pasha30?igsh=c2hzbWMxYTR3Y2R2"><i class='bx bxl-instagram-alt' ></i></a>
+            </div>
+            <a href="Copy of Resume.pdf" download="Copy of Resume.pdf" class="btn">Download cv</a>
+            </div>
+            <div class="home-img">
+                <img src="Copy of Resume.pdf (1).png" alt="">
+            </div>
+
+    </div>
+</section>
+
+<section class="about" id="about">
+    <div class="about-image">
+        <img src="Copy of Resume.pdf (1).png" alt="">
+    </div>
+    <div class="about-content">
+        <h2 class="heading">About <span>Me</span></h2></h2>
+        <h3>Computer Science Engineer</h3>
+        <p>Passionate coder and fitness enthusiast, I find joy in reading, hacking, and spending quality time with friends. Whether immersed in lines of code or hitting the gym, I embrace the balance of mental and physical well-being.</p>
+        <a href="#about" class="btn" onclick="openModal()">Read More</a>
+    </div>
+</section>
+<div class="modal" id="myModal">
+    <div class="modal-content">
+        <span class="close" onclick="closeModal()">&times;</span>
+        <h2 class="heading">About <span>Me</span></h2>
+        <p>Hello, I'm Imran Pasha, a passionate Computer Science engineer with a robust problem-solving mindset and a keen interest in innovation. Whether collaborating within a team, taking on solo projects, or delving into new technologies through competitions and hackathons, I thrive on challenges that push my boundaries.</p>
+
+        <h3>Professional Journey</h3>
+        <p>As a Computer Science enthusiast, I've honed my skills through hands-on experiences and academic pursuits. My journey has equipped me with a solid foundation in coding, algorithm design, and software development.</p>
+
+        <h3>Innovation and Creativity</h3>
+        <p>I believe in the power of innovation to drive positive change. I'm not just a problem solver; I'm also someone who enjoys thinking creatively to find unique solutions.</p>
+
+        <h3>Team Collaboration</h3>
+        <p>Working effectively in teams is a strength I bring to the table. I value collaboration and the diverse perspectives that team environments offer.</p>
+
+        <h3>Continuous Learning</h3>
+        <p>The dynamic nature of technology excites me, and I'm committed to continuous learning. Staying updated with the latest trends and technologies is a habit that fuels my professional growth.</p>
+
+        <h3>Hackathons and Competitions</h3>
+        <p>Participating in hackathons and competitions has been a rewarding part of my journey. It's where I put my skills to the test, push boundaries, and learn from real-world challenges.</p>
+
+        <h3>Beyond the Code</h3>
+        <p>While I'm deeply immersed in the world of programming, I also have diverse interests outside of technology. Whether it's exploring new hobbies or enjoying the outdoors, I believe in maintaining a well-rounded and balanced lifestyle.</p>
+        <button class="close-button" onclick="closeModal()">Close</button>
+    </div>
+</div>
+
+<section class="skill" id="skill">
+<div class="container">
+    <h1 class="sub-title">My <span>Skills</span></h1>
+    <div class="skill-list">
+        <div>
+            <i class='bx bx-code' style="color: aqua;"></i>
+            <h2>Full stack</h2>
+            <p>Discover my skills as a Full Stack developer, proficient in both front-end and back-end technologies. From creating engaging user interfaces with modern frameworks to designing scalable server architectures, I thrive on the challenges of Full Stack development. Let's build innovative solutions together!</p>
+    
+                 <a href="#project" class="btn">view project</a>
+        </div>
+        <div>
+            <i class='bx bx-fingerprint'style="color: aqua;" ></i>
+            <h2>Cyber Security</h2>
+            <p> Explore my expertise in cybersecurity, where I safeguard digital landscapes with a focus on proactive threat detection and risk mitigation. With a strong commitment to securing systems, I navigate the dynamic challenges of cybersecurity with precision.
+            </p>
+                   <a href="#project" class="btn">view project</a>
+        </div>
+        <div>
+            <i class='bx bxl-android' style="color: aqua;"></i>
+            <h2>Android development</h2>
+            <p>Delve into my proficiency in mobile app development, crafting intuitive and feature-rich applications. From user-friendly interfaces to robust backend integrations, I bring ideas to life in the palm of your hand. Let's create innovative mobile experiences!</p>
+                   <a href="#project" class="btn">view project</a>
+        </div>
+    </div>
+</div>
+</section>
+<!--  ------------------------------------------------------  -->
+<section class="egsec" id="langua" >
+<h1 class="sub-title">Programming <span>languages</span> </h1>
+
+<div class="programm2" id="prog">
+    
+    <div class="Technical-bars">
+        <div class="bar">
+            <i class='bx bxl-html5' style="color: #c95d2e;" ></i>
+            <div class="info">
+               <span>HTML</span> 
+            </div>
+        <div class="progress-line html">
+
+        <span></span>
+    </div>
+</div>
+
+<div class="bar">
+    <i class='bx bxl-css3' style="color: #147bbc;" ></i>
+    <div class="info">
+       <span>CSS</span> 
+    </div>
+<div class="progress-line htm">
+
+<span></span>
+</div>
+</div>
+
+<div class="bar">
+    <i class='bx bxl-javascript' style="color: #b0bc1e;" ></i>
+    <div class="info">
+       <span>javascript</span> 
+    </div>
+<div class="progress-line javascript">
+<span></span>
+</div>
+</div>
+
+<div class="bar">
+    <i class='bx bxl-java' style="color: rgb(201, 11, 11);"></i>
+    <div class="info">
+       <span>java</span> 
+    </div>
+<div class="progress-line java">
+<span></span>
+</div>
+</div>
+
+<div class="bar">
+    <i class='bx bxl-python' style="color: #c32ec9;" ></i>
+    <div class="info">
+       <span>PYTHON</span> 
+    </div>
+<div class="progress-line python">
+<span></span>
+</div>
+</div>
+
+<div class="bar">
+    <i class='bx bxl-php' style="color: #7E9ACB;" ></i>
+    <div class="info">
+       <span>PHP</span> 
+    </div>
+<div class="progress-line php">
+<span></span>
+</div>
+</div>
+
+</div></div>
+</section>
+<section class="project" id="project">
+    <h2 class="heading">Latest <span> Projects</span></h2>
+    <div class="project-container">
+
+    
+
+        <div class="project-box">
+            <img src="Desktop-Android-HD-Wallpapers-Images-Download.jpg" alt="">
+            <div class="project-layer">
+                <h4>android app development </h4>
+                <p>The app helps the people to connect to each other by sharing there daily texts
+                    and pics. We used Android studio with java as my programing language The
+                    link provides the access to the project -
+                    </p>
+                      <a href="https://github.com/Imranpasha30/androidapp.git"><i class='bx bx-link-external' ></i></a>
+            </div>
+        </div>
+        <div class="project-box">
+            <img src="Designer (3).png" alt="">
+            <div class="project-layer">
+                <h4>GraphEd Track</h4>
+                <p>An innovative educational portal leveraging GraphQL technology for efficient, real-time data retrieval, offering students a dynamic way to access and update their course information. -</p>
+                      <a href="https://github.com/Imranpasha30/travellers-website.git"><i class='bx bx-link-external' ></i></a>
+            </div>
+        </div>
+
+        <div class="project-box">
+            <img src="global-logistics-neon-label-vector-36016108.jpg" alt="">
+            <div class="project-layer">
+                <h4>logestic </h4>
+                <p>I have developed a logistics application which accepts orders from different
+                    organizations and delivers them to the specified destination, While also
+                    providing real-time delivery status updates. The application also helps to
+                    organize and maintain the goods The link provides the access to the project -
+                    </p>
+                      <a href="https://github.com/Imranpasha30/logestics-java-aplication/tree/master"><i class='bx bx-link-external' ></i></a>
+            </div>
+        </div>
+
+        <div class="project-box">
+            <img src="glowing-neon-map-pin-icon-isolated-on-blue-vector-30521559.jpg" alt="">
+            <div class="project-layer">
+                <h4>MAP</h4>
+                <p>It lets the user select the restaurant. Upon selection, the algorithm
+                    automatically selects the closest delivery partner to the restaurant. The
+                    application was build using Python with the help of PyChram famework. The
+                    report on this project can be accessed through the link given below -
+                    </p>
+                      <a href="https://github.com/Imranpasha30/map_oj/blob/master/map.html"><i class='bx bx-link-external' ></i></a>
+            </div>
+        </div>
+
+        <div class="project-box">
+            <img src="iStock-987365514.jpg" alt="">
+            <div class="project-layer">
+                <h4>tech website </h4>
+                <p>Welcome to our tech services hub, your one-stop destination for cutting-edge solutions. Explore a spectrum of services, including web development, digital marketing, and social media strategies. We specialize in transforming ideas into digital success stories. Let's embark on a journey of innovation and online excellence together.
+                </p>
+                      <a href="https://github.com/Imranpasha30/TechTonic.github.io.git"><i class='bx bx-link-external' ></i></a>
+            </div>
+        </div>
+
+        <div class="project-box">
+            <img src="wp2004049.jpg" alt="">
+            <div class="project-layer">
+                <h4>travellers website </h4>
+                <p>This website helps to book the trip . It gives the complete details of the place
+                    where the tourist is willing to visit. The inbuild map in this website allow to
+                    navigate during there trip We used leaflet package available in java script to
+                    build the map The link provides the access to the project -</p>
+                      <a href="https://github.com/Imranpasha30/travellers-website.git"><i class='bx bx-link-external' ></i></a>
+            </div>
+        </div>
+        <div class="project-box">
+            <img src="Designer (4).png" alt="">
+            <div class="project-layer">
+                <h4>CourseHub Connect </h4>
+                <p>A comprehensive course management platform where students can register and manage their academic details. 
+                    Utilizes a robust REST API to ensure seamless data handling and user experience. -</p>
+                      <a href="https://github.com/Imranpasha30/travellers-website.git"><i class='bx bx-link-external' ></i></a>
+            </div>
+        </div>
+
+        <div class="project-box">
+            <img src="Designer (5).png" alt="">
+            <div class="project-layer">
+                <h4>Smart Automation Anti-violence Intervention</h4>
+                <h5>link will be provided once the project is published publically</h5>
+                <p>An advanced security solution that employs AI to analyze CCTV live streams for violence detection. Upon identifying a threat, it promptly notifies the nearest police station, ensuring rapid response and community safety. -</p>
+                      <a href="#project"><i class='bx bx-link-external' ></i></a>
+            </div>
+        </div>
+        
+       
+
+
+    </div>
+</section>
+<section class="contact" id="contact" style="background: #051739;">
+    <h2 class="heading">Contact <span>Me!</span></h2>
+    <form   enctype="text/plain" id="myForm">
+        <div class="input-box">
+            <input type="text" name="name" placeholder="FuLL name"  >
+            <input type="email" name="email" placeholder="Email Address">
+        </div>
+
+        <div class="input-box">
+            <input type="tel"  name="phone" placeholder="Mobile number">
+            <input type="text" name="subtext" placeholder="Email Subject">
+        </div>
+
+
+        <textarea  id="message" name="" cols="30" rows="10" placeholder="Your message" required></textarea>
+        <input type="submit" value="Send message" class="btn" >
+       
+    </form><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+    </script>
+    <script>
+        (function() {
+    // Replace with your actual EmailJS user ID
+    emailjs.init("user_YOUR_USER_ID");
+  
+    document.getElementById("myForm").addEventListener("submit", function(event) {
+      event.preventDefault();
+  
+      // Collect form data
+      const name = document.querySelector("input[name='name']").value;
+      const email = document.querySelector("input[name='email']").value;
+      const phone = document.querySelector("input[name='phone']").value;
+      const subject = document.querySelector("input[name='subtext']").value;
+      const message =document.getElementById("message").value;
+
+
+      console.log(name);
+      console.log(email);
+      console.log(message);
+  
+      // Send email using EmailJS
+      service_YOUR_SERVICE_ID= "service_YOUR_SERVICE_ID";
+      template_YOUR_TEMPLATE_ID ="template_c6jay59";
+
+      emailjs.sendForm("service_YOUR_SERVICE_ID", "template_YOUR_TEMPLATE_ID", document.getElementById("myForm")).then(function(response) {
+        console.log("Email sent successfully!", response.status);
+      })
+      .catch(function(error) {
+        console.error("Email failed to send.", error);
+        // Display error message to user
+      });
+    });
+  })();
+    </script>
+
+</section>
+   <footer class="footer">
+    <div class="footer-text">
+        <p> &copy;2022 by IMRAN PASHA   </p>
+        <P> PHONE:9844548537 email:imranpasha@ahmed@gmail.coms</P>
+    </div>
+    <div class="footer-iconTop">
+        <a href="#home"><i class='bx bx-up-arrow-alt' ></i></a>
+    </div>
+
+   </footer>
+   <script src="https://unpkg.com/scrollreveal"></script>
+</body>
+</html>
